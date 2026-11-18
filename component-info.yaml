@@ -1,0 +1,19 @@
+- id: "SECUREPrivacyParamServer:1.0.0"
+  owner: "Osama Zafar"
+  primaryThrust: "core/CI4AI"
+  name: "S.E.C.U.R.E. Privacy Param Server"
+  status: "AlphaRelease"
+  description: "Coordinates collaborative training: requests local training from the participant server for each collaborator and aggregates the returned weights. Part of S.E.C.U.R.E. Privacy, Secure Exchange, Compliance, Understanding & Risk Evaluation: a domain-agnostic collaborative machine learning platform where researchers analyze data and train models together with privacy-preserving features."
+  componentVersion: "1.0.0"
+  targetIcicleRelease: "2026-11"
+  hasDependentComponents:
+    - related_to: "SECUREPrivacyParticipantServer:1.0.0"
+      relationship_type: "DependsOn"
+  licenseUrl: "https://github.com/ICICLE-ai/secure-privacy-param-server?tab=BSD-3-Clause-1-ov-file"
+  publicAccess: true
+  sourceCodeUrl: "https://github.com/ICICLE-ai/secure-privacy-param-server"
+  codeReviewConducted: false
+  testsWritten: false
+  developerDocumentationAvailable: true
+  developerDocumentationUrl: "https://github.com/ICICLE-ai/secure-privacy-param-server#readme"
+  trainingTutorialsAvailable: false
